@@ -27,11 +27,11 @@ The whole number is 11
 """
 import math
 num = int(input("Enter a numerator: Value must be greater than 0: "))
-while num < 0:
+while num < 1:
     num = int(input("Please re-enter the numerator. Value must be greater than 0: "))
     
 dem = int(input("Enter a denominator. Value must be greater than 0: "))
-while dem < 0:
+while dem < 1:
         dem = int(input("Please re-enter the denominator. Value must be greater than 0: "))
 
 gcd = math.gcd(num,dem) 
