@@ -42,8 +42,8 @@ def summaryJW(list):
     for food in range(len(list)): 
         print(f"Item: {list[food].getFoodNameJW()}") 
         print(f"Amount ordered: {list[food].getFoodAmountJW()} pounds")
-        print(f"Price per pound: {"{:.2f}".format(list[food].getPriceJW())})
-        print(f"Price of order: {"{:.2f}".format(list[food].getFoodCostJW())})
+        print(f"Price per pound: {'{:.2f}'.format(list[food].getPriceJW())}")
+        print(f"Price of order: {'{:.2f}'.format(list[food].getFoodCostJW())}")
         print()
 
 #The total of everything
@@ -57,7 +57,7 @@ def totalJW(list):
 def main():
     result = userlistJW()
     summaryJW(result)
-    print(f"Total cost: {"{:.2f}".format(totalJW(result))})
+    print(f"Total cost: {'{:.2f}'.format(totalJW(result))}")
 
 #To run it 
 main()
