@@ -60,8 +60,5 @@ def main():
     print(f"Total cost: {'{:.2f}'.format(totalJW(result))}")
 
 #To run it 
-<<<<<<< HEAD
 main()
-=======
-main()
->>>>>>> 5aff3f9930e5477de8f4531f72cf6cfc22d51675
+
